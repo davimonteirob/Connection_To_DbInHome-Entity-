@@ -21,7 +21,7 @@ namespace Connection_To_DataBaseCSharpe.DataBase
         public DbSet<Usuarios> Usuarios { get; set; } //nessa propriedade informamos ao entity a tabela Usuarios que queremos consultar.
         //assim, informamos a nossa tabela de Usuarios.
 
-        private string connectionString = "Server=DESKTOP-KM1NEG8;Database=TestConnectionToDataBase;User Id=sa;Password=123456;\r\n";
+        private string connectionString = "Server=DESKTOP-KNM3SP8;Database=ConnectionToDataBaseCSharp;User Id=sa;Password=123456;\r\n";
 
 
         //Agora estamos usando entity framework para conectar com o banco de daods, agora estaremos levando a string de conexão para o método
